@@ -1,0 +1,84 @@
+.footer {
+    margin-top: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+}
+
+.footer__wrapper:nth-child(3) {
+    text-align: right;
+}
+
+.footer__list {
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.footer__subwrapper:nth-child(1) {
+    margin-right: 52px;
+}
+
+.footer__phone {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.footer__item {
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer__phone {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer__social {
+    margin-top: 21px;
+}
+
+.footer__social_link {
+    margin-left: 10px;
+}
+
+.footer__address {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.footer__politic {
+    margin-top: 70px;
+}
+
+.footer__politic_text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.footer__politic_link {
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    --main-color: #E4E5EA;
+    --main-gradient: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+}
+
+body {
+    background-color: #000;
+    color: var(--main-color);
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 46px 0px 20px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}

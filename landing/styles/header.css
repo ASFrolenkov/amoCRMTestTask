@@ -1,0 +1,43 @@
+.header {
+    padding-top: 11px;
+    display: flex;
+}
+
+.header__logo {
+    margin-right: 52px;
+}
+
+.header__logo_descr {
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.header__links {
+    margin-top: 4px;
+    margin-right: 137px;
+}
+
+.header__link {
+    font-size: 16px;  
+}
+
+.header__link:not(:nth-child(5)) {
+    margin-right: 30px;
+}
+
+.header__phone {
+    margin-top: 4px;
+    margin-right: 47px;
+    font-size: 16px;
+}
+
+.header__socials {
+    margin-top: 4px;
+}
+
+.header__social:not(:nth-child(3)) {
+    margin-right: 21px;
+}

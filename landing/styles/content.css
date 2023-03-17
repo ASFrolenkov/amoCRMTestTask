@@ -1,0 +1,88 @@
+.content {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__title {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+.gradient.title {
+    font-weight: 900;
+}
+
+.content__descr {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.content__block:nth-child(2) {
+    text-align: right;
+}
+
+.content__subtitle {
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.gradient.subtitle {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.content__wrapper {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 135px 135px;
+    gap: 30px;
+}
+
+.content__item_title {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.content__item_descr {
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.content__button {
+    margin-top: 61px;
+    width: 262px;
+    height: 61px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: var(--main-color);
+    border: none;
+    background-color: #4077F3;
+    cursor: pointer;
+}
+
+.gradient {
+    background: var(--main-gradient), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.mobile {
+    display: none;
+}
